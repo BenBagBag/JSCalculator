@@ -26,7 +26,7 @@ var calcModel = {
   buttonWatch: function() {
     document.body.onclick = function(e) {
       if (window.event) {
-          e = event.srcElement;           //for IE 6-8
+          e = event.srcElement;
       }
       else {
           e = e.target;
